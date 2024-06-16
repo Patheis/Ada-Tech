@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas no Html</title>
+</head>
+<body>
+    <main>
+        <h1>Tabelas no HTML</h1>
+
+        <section id="students">
+            <h2>Tabela de Alunos</h2>
+            
+            <table border="2">
+              <!--Cabecalho da tabela, os titulos-->
+                <thead>
+
+                <tr>
+                       <!--As informacoes ja ficam em negrito-->
+                       <th>Nome</th>
+                       <th>Email</th>
+                       <th>Matricula</th>
+                </tr>
+
+              </thead>
+              <!-- O corpo da minha table-->
+              <tbody>
+                   <tr>
+                    <td>Vamo ver o 1</td>
+                    <td>naoseioq1@gmail</td>
+                    <td>1</td>
+                   </tr>
+
+                   <tr>
+                    <td>Vamo ver o 2</td>
+                    <td>naoseioq2@gmail</td>
+                    <td>2</td>
+                   </tr>
+
+                   <tr>
+                    <td>Vamo ver o 3</td>
+                    <td>naoseioq3@gmail</td>
+                    <td>3</td>
+                   </tr>
+
+              </tbody>
+            </table>
+        </section>
+
+        <section id="finance">
+          <h2>Tabela de controle financeiro</h2>
+
+          <table border="2">
+
+             <thead>
+                <tr>
+
+                <th>Data</th>
+                <th>Tipo</th>
+                <th>Descricao</th>
+                <th>Valor</th>
+
+                </tr>
+             </thead>
+
+             <tbody>
+                <!-- Linha com o Tr-->
+               <tr>
+                 <td rowspan="2">15/06/2022</td>
+                 <td colspan="2">Despesa</td>
+               <!--<td>Almoco</td> -->
+                 <td>R$ 35.00</td>
+               </tr>
+                <!-- Linha com o Tr-->
+               <tr>
+                
+                <td>Receita</td>
+                <td>Salario</td>
+                <td>R$ 3768,00</td>
+              </tr>
+
+
+             </tbody>
+
+          </table>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,59 @@
+h1{
+    color: #303001;
+    font-size: 96px;
+    font-weight: 900;
+    /*Tem a sequencia de tentativa de fontes, caso nao tiver a primeira, tenta a segunda e assim adiante*/
+    font-family: 'Roboto', Arial, cursive;
+  }
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', Arial, cursive;
+}
+
+.bg{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    background-image: url('https://lh3.googleusercontent.com/yt5FGbyvBSoAYuOAh7zW-R91NtRXs4HTR1uggdhNuWb3WdkfAEUGKbCGERsCGdgww_l2JdVbYcOtVnfZawyW2vV3IjxDx8s29M7hHvxJthCRFA=w1440-e365');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+p{
+  font-size: 1.8rem;
+  text-align: justify;
+
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif';
+  
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+.novo-em{
+    font-size: 85%;
+}
+
+a{
+    font-size: 2.4rem;
+}
+/*Quando clica, muda de cor */
+a:visited{
+    color:red;
+}
+
+/* Muda de cor quando passa o mouse*/
+a:hover{
+    color: orange;
+}
